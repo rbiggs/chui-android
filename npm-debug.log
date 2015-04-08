@@ -1,0 +1,419 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json chui@1.0.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/Users/wobba/Desktop/chui-android-npm',
+6 verbose install   [ 'mkdirp', 'ncp', 'writefile', 'yargs' ] ]
+7 info preinstall chui@1.0.0
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'ncp@^2.0.0', null ]
+10 verbose cache add name=undefined spec="ncp@^2.0.0" args=["ncp@^2.0.0",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'ncp@^2.0.0',
+11 verbose parsed url   path: 'ncp@^2.0.0',
+11 verbose parsed url   href: 'ncp@^2.0.0' }
+12 verbose cache add [ 'writefile@^0.2.8', null ]
+13 verbose cache add name=undefined spec="writefile@^0.2.8" args=["writefile@^0.2.8",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'writefile@^0.2.8',
+14 verbose parsed url   path: 'writefile@^0.2.8',
+14 verbose parsed url   href: 'writefile@^0.2.8' }
+15 verbose cache add [ 'yargs@^3.0.4', null ]
+16 verbose cache add name=undefined spec="yargs@^3.0.4" args=["yargs@^3.0.4",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'yargs@^3.0.4',
+17 verbose parsed url   path: 'yargs@^3.0.4',
+17 verbose parsed url   href: 'yargs@^3.0.4' }
+18 verbose cache add name="ncp" spec="^2.0.0" args=["ncp","^2.0.0"]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: '^2.0.0',
+19 verbose parsed url   path: '^2.0.0',
+19 verbose parsed url   href: '^2.0.0' }
+20 verbose addNamed [ 'ncp', '^2.0.0' ]
+21 verbose addNamed [ null, '>=2.0.0-0 <3.0.0-0' ]
+22 verbose cache add name="writefile" spec="^0.2.8" args=["writefile","^0.2.8"]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: '^0.2.8',
+23 verbose parsed url   path: '^0.2.8',
+23 verbose parsed url   href: '^0.2.8' }
+24 verbose addNamed [ 'writefile', '^0.2.8' ]
+25 verbose addNamed [ null, '>=0.2.8-0 <0.3.0-0' ]
+26 verbose cache add [ 'mkdirp@^0.5.0', null ]
+27 verbose cache add name=undefined spec="mkdirp@^0.5.0" args=["mkdirp@^0.5.0",null]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: 'mkdirp@^0.5.0',
+28 verbose parsed url   path: 'mkdirp@^0.5.0',
+28 verbose parsed url   href: 'mkdirp@^0.5.0' }
+29 verbose cache add name="yargs" spec="^3.0.4" args=["yargs","^3.0.4"]
+30 verbose parsed url { protocol: null,
+30 verbose parsed url   slashes: null,
+30 verbose parsed url   auth: null,
+30 verbose parsed url   host: null,
+30 verbose parsed url   port: null,
+30 verbose parsed url   hostname: null,
+30 verbose parsed url   hash: null,
+30 verbose parsed url   search: null,
+30 verbose parsed url   query: null,
+30 verbose parsed url   pathname: '^3.0.4',
+30 verbose parsed url   path: '^3.0.4',
+30 verbose parsed url   href: '^3.0.4' }
+31 verbose addNamed [ 'yargs', '^3.0.4' ]
+32 verbose addNamed [ null, '>=3.0.4-0 <4.0.0-0' ]
+33 silly lockFile 3f422a01-ncp-2-0-0 ncp@^2.0.0
+34 verbose lock ncp@^2.0.0 /Users/wobba/.npm/3f422a01-ncp-2-0-0.lock
+35 silly lockFile cbadf518-writefile-0-2-8 writefile@^0.2.8
+36 verbose lock writefile@^0.2.8 /Users/wobba/.npm/cbadf518-writefile-0-2-8.lock
+37 silly lockFile 0a633206-yargs-3-0-4 yargs@^3.0.4
+38 verbose lock yargs@^3.0.4 /Users/wobba/.npm/0a633206-yargs-3-0-4.lock
+39 verbose cache add name="mkdirp" spec="^0.5.0" args=["mkdirp","^0.5.0"]
+40 verbose parsed url { protocol: null,
+40 verbose parsed url   slashes: null,
+40 verbose parsed url   auth: null,
+40 verbose parsed url   host: null,
+40 verbose parsed url   port: null,
+40 verbose parsed url   hostname: null,
+40 verbose parsed url   hash: null,
+40 verbose parsed url   search: null,
+40 verbose parsed url   query: null,
+40 verbose parsed url   pathname: '^0.5.0',
+40 verbose parsed url   path: '^0.5.0',
+40 verbose parsed url   href: '^0.5.0' }
+41 verbose addNamed [ 'mkdirp', '^0.5.0' ]
+42 verbose addNamed [ null, '>=0.5.0-0 <0.6.0-0' ]
+43 silly lockFile 0879e7d7-mkdirp-0-5-0 mkdirp@^0.5.0
+44 verbose lock mkdirp@^0.5.0 /Users/wobba/.npm/0879e7d7-mkdirp-0-5-0.lock
+45 silly addNameRange { name: 'writefile',
+45 silly addNameRange   range: '>=0.2.8-0 <0.3.0-0',
+45 silly addNameRange   hasData: false }
+46 silly addNameRange { name: 'ncp', range: '>=2.0.0-0 <3.0.0-0', hasData: false }
+47 silly addNameRange { name: 'yargs', range: '>=3.0.4-0 <4.0.0-0', hasData: false }
+48 silly addNameRange { name: 'mkdirp', range: '>=0.5.0-0 <0.6.0-0', hasData: false }
+49 verbose request where is /writefile
+50 verbose request registry https://registry.npmjs.org/
+51 verbose request id 574d4acdda42f174
+52 verbose url raw /writefile
+53 verbose url resolving [ 'https://registry.npmjs.org/', './writefile' ]
+54 verbose url resolved https://registry.npmjs.org/writefile
+55 verbose request where is https://registry.npmjs.org/writefile
+56 info trying registry request attempt 1 at 15:11:06
+57 verbose etag "1ADTAZ897NZQCFQMJPV9UM3TM"
+58 http GET https://registry.npmjs.org/writefile
+59 verbose request where is /mkdirp
+60 verbose request registry https://registry.npmjs.org/
+61 verbose url raw /mkdirp
+62 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp' ]
+63 verbose url resolved https://registry.npmjs.org/mkdirp
+64 verbose request where is https://registry.npmjs.org/mkdirp
+65 info trying registry request attempt 1 at 15:11:06
+66 verbose etag "E5SCS2HO45F5J9ADCOH8XBR6L"
+67 http GET https://registry.npmjs.org/mkdirp
+68 verbose request where is /yargs
+69 verbose request registry https://registry.npmjs.org/
+70 verbose url raw /yargs
+71 verbose url resolving [ 'https://registry.npmjs.org/', './yargs' ]
+72 verbose url resolved https://registry.npmjs.org/yargs
+73 verbose request where is https://registry.npmjs.org/yargs
+74 info trying registry request attempt 1 at 15:11:06
+75 verbose etag "AEVXVE3L8GWTP2ADOD6WJM31T"
+76 http GET https://registry.npmjs.org/yargs
+77 verbose request where is /ncp
+78 verbose request registry https://registry.npmjs.org/
+79 verbose url raw /ncp
+80 verbose url resolving [ 'https://registry.npmjs.org/', './ncp' ]
+81 verbose url resolved https://registry.npmjs.org/ncp
+82 verbose request where is https://registry.npmjs.org/ncp
+83 info trying registry request attempt 1 at 15:11:06
+84 verbose etag "4UH7KU151BZBUHI8JX7CNQFE5"
+85 http GET https://registry.npmjs.org/ncp
+86 http 304 https://registry.npmjs.org/ncp
+87 silly registry.get cb [ 304,
+87 silly registry.get   { date: 'Fri, 13 Mar 2015 22:11:05 GMT',
+87 silly registry.get     server: 'Apache',
+87 silly registry.get     via: '1.1 varnish',
+87 silly registry.get     'last-modified': 'Fri, 13 Mar 2015 22:10:31 GMT',
+87 silly registry.get     'cache-control': 'max-age=60',
+87 silly registry.get     etag: '"4UH7KU151BZBUHI8JX7CNQFE5"',
+87 silly registry.get     age: '59',
+87 silly registry.get     'x-served-by': 'cache-sjc3133-SJC',
+87 silly registry.get     'x-cache': 'HIT',
+87 silly registry.get     'x-cache-hits': '4',
+87 silly registry.get     'x-timer': 'S1426284665.565962,VS0,VE0',
+87 silly registry.get     vary: 'Accept',
+87 silly registry.get     'content-length': '0',
+87 silly registry.get     'keep-alive': 'timeout=10, max=50',
+87 silly registry.get     connection: 'Keep-Alive' } ]
+88 verbose etag https://registry.npmjs.org/ncp from cache
+89 silly addNameRange number 2 { name: 'ncp', range: '>=2.0.0-0 <3.0.0-0', hasData: true }
+90 silly addNameRange versions [ 'ncp',
+90 silly addNameRange   [ '0.0.0',
+90 silly addNameRange     '0.0.1',
+90 silly addNameRange     '0.0.2',
+90 silly addNameRange     '0.1.0',
+90 silly addNameRange     '0.1.1',
+90 silly addNameRange     '0.1.2',
+90 silly addNameRange     '0.2.0',
+90 silly addNameRange     '0.2.1',
+90 silly addNameRange     '0.2.2',
+90 silly addNameRange     '0.2.3',
+90 silly addNameRange     '0.2.4',
+90 silly addNameRange     '0.2.5',
+90 silly addNameRange     '0.2.6',
+90 silly addNameRange     '0.3.0',
+90 silly addNameRange     '0.4.0',
+90 silly addNameRange     '0.2.7',
+90 silly addNameRange     '0.4.1',
+90 silly addNameRange     '0.4.2',
+90 silly addNameRange     '0.5.0',
+90 silly addNameRange     '0.5.1',
+90 silly addNameRange     '0.6.0',
+90 silly addNameRange     '1.0.0',
+90 silly addNameRange     '1.0.1',
+90 silly addNameRange     '2.0.0' ] ]
+91 verbose addNamed [ 'ncp', '2.0.0' ]
+92 verbose addNamed [ '2.0.0', '2.0.0' ]
+93 silly lockFile f1dbd422-ncp-2-0-0 ncp@2.0.0
+94 verbose lock ncp@2.0.0 /Users/wobba/.npm/f1dbd422-ncp-2-0-0.lock
+95 silly lockFile f1dbd422-ncp-2-0-0 ncp@2.0.0
+96 silly lockFile f1dbd422-ncp-2-0-0 ncp@2.0.0
+97 silly lockFile 3f422a01-ncp-2-0-0 ncp@^2.0.0
+98 silly lockFile 3f422a01-ncp-2-0-0 ncp@^2.0.0
+99 http 200 https://registry.npmjs.org/mkdirp
+100 silly registry.get cb [ 200,
+100 silly registry.get   { date: 'Fri, 13 Mar 2015 22:11:05 GMT',
+100 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+100 silly registry.get     etag: '"65Z5D34AN52GDN3EQZM4X9EZA"',
+100 silly registry.get     'content-type': 'application/json',
+100 silly registry.get     'cache-control': 'max-age=60',
+100 silly registry.get     'content-length': '21977',
+100 silly registry.get     'accept-ranges': 'bytes',
+100 silly registry.get     via: '1.1 varnish',
+100 silly registry.get     age: '59',
+100 silly registry.get     'x-served-by': 'cache-sjc3132-SJC',
+100 silly registry.get     'x-cache': 'HIT',
+100 silly registry.get     'x-cache-hits': '4',
+100 silly registry.get     'x-timer': 'S1426284665.616991,VS0,VE0',
+100 silly registry.get     vary: 'Accept',
+100 silly registry.get     'keep-alive': 'timeout=10, max=50',
+100 silly registry.get     connection: 'Keep-Alive' } ]
+101 silly addNameRange number 2 { name: 'mkdirp', range: '>=0.5.0-0 <0.6.0-0', hasData: true }
+102 silly addNameRange versions [ 'mkdirp',
+102 silly addNameRange   [ '0.0.1',
+102 silly addNameRange     '0.0.2',
+102 silly addNameRange     '0.0.3',
+102 silly addNameRange     '0.0.4',
+102 silly addNameRange     '0.0.5',
+102 silly addNameRange     '0.0.6',
+102 silly addNameRange     '0.0.7',
+102 silly addNameRange     '0.1.0',
+102 silly addNameRange     '0.2.0',
+102 silly addNameRange     '0.2.1',
+102 silly addNameRange     '0.2.2',
+102 silly addNameRange     '0.3.0',
+102 silly addNameRange     '0.3.1',
+102 silly addNameRange     '0.3.2',
+102 silly addNameRange     '0.3.3',
+102 silly addNameRange     '0.3.4',
+102 silly addNameRange     '0.3.5',
+102 silly addNameRange     '0.4.0',
+102 silly addNameRange     '0.4.1',
+102 silly addNameRange     '0.4.2',
+102 silly addNameRange     '0.5.0' ] ]
+103 verbose addNamed [ 'mkdirp', '0.5.0' ]
+104 verbose addNamed [ '0.5.0', '0.5.0' ]
+105 silly lockFile bf9ae38d-mkdirp-0-5-0 mkdirp@0.5.0
+106 verbose lock mkdirp@0.5.0 /Users/wobba/.npm/bf9ae38d-mkdirp-0-5-0.lock
+107 silly lockFile bf9ae38d-mkdirp-0-5-0 mkdirp@0.5.0
+108 silly lockFile bf9ae38d-mkdirp-0-5-0 mkdirp@0.5.0
+109 silly lockFile 0879e7d7-mkdirp-0-5-0 mkdirp@^0.5.0
+110 silly lockFile 0879e7d7-mkdirp-0-5-0 mkdirp@^0.5.0
+111 http 304 https://registry.npmjs.org/writefile
+112 silly registry.get cb [ 304,
+112 silly registry.get   { date: 'Fri, 13 Mar 2015 22:11:05 GMT',
+112 silly registry.get     server: 'Apache',
+112 silly registry.get     via: '1.1 varnish',
+112 silly registry.get     'last-modified': 'Fri, 13 Mar 2015 22:11:05 GMT',
+112 silly registry.get     'cache-control': 'max-age=60',
+112 silly registry.get     etag: '"1ADTAZ897NZQCFQMJPV9UM3TM"',
+112 silly registry.get     age: '0',
+112 silly registry.get     'x-served-by': 'cache-sjc3134-SJC',
+112 silly registry.get     'x-cache': 'MISS',
+112 silly registry.get     'x-cache-hits': '0',
+112 silly registry.get     'x-timer': 'S1426284665.617094,VS0,VE86',
+112 silly registry.get     vary: 'Accept',
+112 silly registry.get     'content-length': '0',
+112 silly registry.get     'keep-alive': 'timeout=10, max=50',
+112 silly registry.get     connection: 'Keep-Alive' } ]
+113 verbose etag https://registry.npmjs.org/writefile from cache
+114 silly addNameRange number 2 { name: 'writefile', range: '>=0.2.8-0 <0.3.0-0', hasData: true }
+115 silly addNameRange versions [ 'writefile',
+115 silly addNameRange   [ '0.1.0',
+115 silly addNameRange     '0.1.1',
+115 silly addNameRange     '0.2.0',
+115 silly addNameRange     '0.2.1',
+115 silly addNameRange     '0.2.2',
+115 silly addNameRange     '0.2.3',
+115 silly addNameRange     '0.2.4',
+115 silly addNameRange     '0.2.5',
+115 silly addNameRange     '0.2.6',
+115 silly addNameRange     '0.2.7',
+115 silly addNameRange     '0.2.8' ] ]
+116 verbose addNamed [ 'writefile', '0.2.8' ]
+117 verbose addNamed [ '0.2.8', '0.2.8' ]
+118 silly lockFile f06baae1-writefile-0-2-8 writefile@0.2.8
+119 verbose lock writefile@0.2.8 /Users/wobba/.npm/f06baae1-writefile-0-2-8.lock
+120 silly lockFile f06baae1-writefile-0-2-8 writefile@0.2.8
+121 silly lockFile f06baae1-writefile-0-2-8 writefile@0.2.8
+122 silly lockFile cbadf518-writefile-0-2-8 writefile@^0.2.8
+123 silly lockFile cbadf518-writefile-0-2-8 writefile@^0.2.8
+124 http 200 https://registry.npmjs.org/yargs
+125 silly registry.get cb [ 200,
+125 silly registry.get   { date: 'Fri, 13 Mar 2015 22:11:05 GMT',
+125 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+125 silly registry.get     etag: '"C4AQ7ZANE3NVEXL9O7EZZBMY"',
+125 silly registry.get     'content-type': 'application/json',
+125 silly registry.get     'cache-control': 'max-age=60',
+125 silly registry.get     'content-length': '91874',
+125 silly registry.get     'accept-ranges': 'bytes',
+125 silly registry.get     via: '1.1 varnish',
+125 silly registry.get     age: '44',
+125 silly registry.get     'x-served-by': 'cache-sjc3132-SJC',
+125 silly registry.get     'x-cache': 'HIT',
+125 silly registry.get     'x-cache-hits': '1',
+125 silly registry.get     'x-timer': 'S1426284665.618163,VS0,VE0',
+125 silly registry.get     vary: 'Accept',
+125 silly registry.get     'keep-alive': 'timeout=10, max=50',
+125 silly registry.get     connection: 'Keep-Alive' } ]
+126 silly addNameRange number 2 { name: 'yargs', range: '>=3.0.4-0 <4.0.0-0', hasData: true }
+127 silly addNameRange versions [ 'yargs',
+127 silly addNameRange   [ '1.0.0',
+127 silly addNameRange     '1.0.1',
+127 silly addNameRange     '1.0.3',
+127 silly addNameRange     '1.0.4',
+127 silly addNameRange     '1.0.5',
+127 silly addNameRange     '1.0.6',
+127 silly addNameRange     '1.0.7',
+127 silly addNameRange     '1.0.8',
+127 silly addNameRange     '1.0.9',
+127 silly addNameRange     '1.0.10',
+127 silly addNameRange     '1.0.11',
+127 silly addNameRange     '1.0.12',
+127 silly addNameRange     '1.0.13',
+127 silly addNameRange     '1.0.15',
+127 silly addNameRange     '1.1.0',
+127 silly addNameRange     '1.1.1',
+127 silly addNameRange     '1.1.2',
+127 silly addNameRange     '1.1.3',
+127 silly addNameRange     '1.2.0',
+127 silly addNameRange     '1.2.1',
+127 silly addNameRange     '1.2.2',
+127 silly addNameRange     '1.2.3',
+127 silly addNameRange     '1.2.4',
+127 silly addNameRange     '1.2.5',
+127 silly addNameRange     '1.2.6',
+127 silly addNameRange     '1.3.0',
+127 silly addNameRange     '1.3.1',
+127 silly addNameRange     '1.3.2',
+127 silly addNameRange     '1.3.3',
+127 silly addNameRange     '2.1.1',
+127 silly addNameRange     '2.3.0',
+127 silly addNameRange     '3.0.0',
+127 silly addNameRange     '3.0.1',
+127 silly addNameRange     '3.0.2',
+127 silly addNameRange     '3.0.3',
+127 silly addNameRange     '3.0.4',
+127 silly addNameRange     '3.1.0',
+127 silly addNameRange     '3.2.1',
+127 silly addNameRange     '3.3.1',
+127 silly addNameRange     '3.4.0',
+127 silly addNameRange     '3.4.4',
+127 silly addNameRange     '3.4.5',
+127 silly addNameRange     '3.5.0',
+127 silly addNameRange     '3.5.1',
+127 silly addNameRange     '3.5.2',
+127 silly addNameRange     '3.5.3',
+127 silly addNameRange     '3.5.4' ] ]
+128 verbose addNamed [ 'yargs', '3.5.4' ]
+129 verbose addNamed [ '3.5.4', '3.5.4' ]
+130 silly lockFile 5485b08f-yargs-3-5-4 yargs@3.5.4
+131 verbose lock yargs@3.5.4 /Users/wobba/.npm/5485b08f-yargs-3-5-4.lock
+132 silly lockFile 1a2adcd7--npmjs-org-yargs-yargs-3-5-4-tgz https://registry.npmjs.org/yargs/-/yargs-3.5.4.tgz
+133 verbose lock https://registry.npmjs.org/yargs/-/yargs-3.5.4.tgz /Users/wobba/.npm/1a2adcd7--npmjs-org-yargs-yargs-3-5-4-tgz.lock
+134 verbose addRemoteTarball [ 'https://registry.npmjs.org/yargs/-/yargs-3.5.4.tgz',
+134 verbose addRemoteTarball   'd8aff8f665e94c34bd259bdebd1bfaf0ddd35361' ]
+135 info retry fetch attempt 1 at 15:11:07
+136 verbose fetch to= /var/folders/xt/wb64wcqn5sg4pp17m7z1p04c0000gn/T/npm-6589-yatXNj6T/registry.npmjs.org/yargs/-/yargs-3.5.4.tgz
+137 http GET https://registry.npmjs.org/yargs/-/yargs-3.5.4.tgz
+138 http 200 https://registry.npmjs.org/yargs/-/yargs-3.5.4.tgz
+139 silly lockFile 1a2adcd7--npmjs-org-yargs-yargs-3-5-4-tgz https://registry.npmjs.org/yargs/-/yargs-3.5.4.tgz
+140 silly lockFile 1a2adcd7--npmjs-org-yargs-yargs-3-5-4-tgz https://registry.npmjs.org/yargs/-/yargs-3.5.4.tgz
+141 silly lockFile 5485b08f-yargs-3-5-4 yargs@3.5.4
+142 silly lockFile 5485b08f-yargs-3-5-4 yargs@3.5.4
+143 silly lockFile 0a633206-yargs-3-0-4 yargs@^3.0.4
+144 silly lockFile 0a633206-yargs-3-0-4 yargs@^3.0.4
+145 error Error: EACCES, mkdir '/Users/wobba/.npm/yargs/3.5.4'
+145 error  { [Error: EACCES, mkdir '/Users/wobba/.npm/yargs/3.5.4']
+145 error   errno: 3,
+145 error   code: 'EACCES',
+145 error   path: '/Users/wobba/.npm/yargs/3.5.4',
+145 error   parent: 'chui' }
+146 error Please try running this command again as root/Administrator.
+147 error System Darwin 14.3.0
+148 error command "node" "/usr/local/bin/npm" "install"
+149 error cwd /Users/wobba/Desktop/chui-android-npm
+150 error node -v v0.10.35
+151 error npm -v 1.4.28
+152 error path /Users/wobba/.npm/yargs/3.5.4
+153 error code EACCES
+154 error errno 3
+155 error stack Error: EACCES, mkdir '/Users/wobba/.npm/yargs/3.5.4'
+156 verbose exit [ 3, true ]
